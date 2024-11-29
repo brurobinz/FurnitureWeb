@@ -1,0 +1,52 @@
+.help-tab {
+    position:fixed;
+    right: 100;
+    top: 15%;
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px 0 0 8px;
+    transition: transform 0.3s ease;
+    z-index: 999;
+    
+  }
+  
+  .help-tab h3 {
+    margin-top: 0;
+  }
+  
+  .help-tab input,
+  .help-tab select,
+  .help-tab textarea {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .help-tab button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .help-tab .close-button {
+    width: 30px;
+    height: 37px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+
+    margin-left: 230px;
+    
+    top: 10px;
+    right: 10px;
+  }
+  

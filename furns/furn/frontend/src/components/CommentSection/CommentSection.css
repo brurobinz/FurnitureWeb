@@ -1,0 +1,118 @@
+/* comment-section: Phần chứa toàn bộ giao diện bình luận */
+.comment-section {
+    width: 100%;
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .comment-list {
+    max-height: 400px; /* Set a fixed height or adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 10px;
+    border: 1px solid #ccc; /* Optional: add a border for better separation */
+    margin-bottom: 20px; /* Optional: add margin if needed */
+  }  
+  
+  .comment-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
+  .comment {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .comment p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .comment span {
+    font-size: 0.85rem;
+    color: #888;
+    text-align: right;
+    margin-top: 5px;
+  }
+  
+  /* Phần nhập bình luận */
+  .comment-input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .comment-input-wrapper input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .comment-input-wrapper button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-input-wrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  .comment-input-wrapper button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  .star-rating {
+    display: grid;
+    align-items: center;
+    gap: 5px;
+    margin-left: 500px;
+    margin-top: 70px;
+    border: 1px solid black;
+  }
+  
+  .star{
+    
+    font-size: 40px;
+    cursor: pointer;
+    color: lightgray;
+    transition: color 0.2s ease;
+    gap: 10px;
+  }
+  
+  .star.selected {
+    color: gold;
+  }
+  
+  
+.h3rate{
+  color: red;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+}
+.st{
+  color: rgb(25, 5, 177);
+  font-weight: 500px;
+
+}
+
+.star:hover {
+  color: yellow; 
+}
